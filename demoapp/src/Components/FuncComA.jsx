@@ -13,8 +13,8 @@ function FuncComA() {
     return(
         <>
             <h1>Hello from Functional Component A</h1>
-            <CompC name="Giri" city="Hyderabad" />
-            <CompC name="React" city="Hyderabad" />
+            
+            <CompC />
         </>
     );
 }

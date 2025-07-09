@@ -8,4 +8,9 @@ function CompC(props) {
         </>
     )
 }
+CompC.defaultProps = {
+    name: "Default Name",
+    city: "Default City"
+};
 export default CompC;
+
