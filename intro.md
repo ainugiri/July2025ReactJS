@@ -25,4 +25,9 @@ ReactJS is a JavaScript library for building user interfaces, particularly singl
 - Unidirectional Data Flow: Data flows in one direction, making it easier to understand how data changes affect the UI. This helps in debugging and maintaining the application.
 - JSX: React uses JSX, a syntax extension that allows mixing HTML with JavaScript. This makes it easier to write and visualize the structure of the UI.
  - JavaScript XML (JSX): JSX is a syntax extension for JavaScript that allows you to write HTML-like code within your JavaScript files. It makes the code more readable and easier to write, as it closely resembles the structure of the UI.
+
+
+ How to install ReactJS on Windows:
+ 1. NodeJS
+ 2. npm - Node Package Manager to install ReactJS or required javaScript libraries
  
