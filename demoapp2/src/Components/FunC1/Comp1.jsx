@@ -3,12 +3,20 @@ import React from 'react';
 function Comp1(props) {
     return (
         <div>
-            <h1>Hello, {props.name}! and his age is {props.age}
-            <br />
-            This is a functional component.
-            </h1>
+            {props.userName.map((user, index) => (
+                <h2 key={index}>Welcome {user} to ReactJS Functional Components</h2>
+            ))}
+
+        </div>
+    );
+}
+
+function Comp2() {
+    return (
+        <div>
+            <h1>This is a component2.</h1>
         </div>
     );
 }
 // Exporting the component
-export default Comp1;   
+export { Comp1, Comp2 };
